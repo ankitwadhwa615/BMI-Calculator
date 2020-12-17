@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
-const labelTextstyel=TextStyle(
-  color: Color(0xFF8D8E98),
-  fontSize: 18.0,
-);
-class Icon_content extends StatelessWidget {
-  Icon_content({@required this.gender,@required this.icon
+
+// ignore: camel_case_types
+class icon_content extends StatelessWidget {
+  icon_content({@required this.gender,@required this.icon
   });
   final IconData icon;
   final String gender;
@@ -22,7 +21,7 @@ class Icon_content extends StatelessWidget {
           height: 15.0,
         ),
         Text(gender,
-          style: labelTextstyel ),
+          style: klabelTextstyle ),
       ],
     );
   }
